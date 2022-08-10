@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import AddTask from './AddTask';
 import Displaytask from './Displaytask';
+import "./Css/home.css"
 
 const Home = (props) => {
    
@@ -9,13 +10,18 @@ const Home = (props) => {
         
   
       
-      <div className='home'>
+      <div >
+        <div >
+        <Link to="/"><button className='btn'>Logout</button></Link>
+        </div>
 
-        <Link to="/"><button>logout</button></Link>
+        <div className='home'>
         <AddTask add={props.add}/>
         <Displaytask list={props.list}/>
-        
         </div>
+      </div>
+
+    
 )
 
 }

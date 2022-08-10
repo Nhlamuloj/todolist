@@ -36,9 +36,9 @@ const Login = () => {
 
        <h1>Welcome Back</h1>
             <h5>Manage Your Checklist Easily</h5>
-            <label>Email</label>
+            <label>Email</label><br></br>
             <input type="email" placeholder="Enter your email"onChange={(e)=>setEmail(e.target.value)}/><br></br>
-            <label>password</label>
+            <label>password</label><br></br>
             <input type="password" placeholder="Enter your password"onChange={(e)=>setPassword(e.target.value)} /><br></br>
 
             <button className='Btn' style={btn} onClick={login}>Login</button>
@@ -48,6 +48,10 @@ const Login = () => {
                 <Link to="sign-up"> Create account here</Link>
                
                 </span>
+                
+                <h4>OR</h4>
+
+                <button className='google'>Sign-in with Google</button>
         
        </div>
     </div>
