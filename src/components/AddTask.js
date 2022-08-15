@@ -27,7 +27,7 @@ const AddTask = (props) => {
         props.add( task, transactionType);
     })
     return(
-     <div>
+     <div className="new-task">
          <input placeholder="Add new task"
           onChange={(e)=>setTask(e.target.value)}
          />{" "}

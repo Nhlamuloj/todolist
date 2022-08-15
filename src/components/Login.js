@@ -34,20 +34,20 @@ const Login = () => {
                
        <div className='Login'>
 
-       <h1>Welcome Back</h1>
+            <h1>Welcome Back</h1>
             <h5>Manage Your Checklist Easily</h5>
             <label>Email</label><br></br>
             <input type="email" placeholder="Enter your email"onChange={(e)=>setEmail(e.target.value)}/><br></br>
-            <label>password</label><br></br>
+            <label>Password</label><br></br>
             <input type="password" placeholder="Enter your password"onChange={(e)=>setPassword(e.target.value)} /><br></br>
 
-            <button className='Btn' style={btn} onClick={login}>Login</button>
+            <button className='Btn' style={btn} onClick={login}>Login</button> <br></br>
 
             <span>Don't have an account </span> <span>
                 
                 <Link to="sign-up"> Create account here</Link>
                
-                </span>
+            </span>
                 
                 <h4>OR</h4>
 

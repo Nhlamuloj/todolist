@@ -2,18 +2,20 @@
 .home{
     margin: auto;
     width: 60%;
-    padding: 20px;
+    
 }
 .btn{
     position: absolute;
     right: 80px;
-    background-color: whitesmoke;
-    border: 2px solid blue;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    
-  }
+   box-sizing: border-box;
+   border: 2px solid lightseagreen;
+   border-radius: 4px;
+   font-size: 16px;
+   background-color: lightseagreen;
+   padding: 12px 12px 12px 12px;
+   color: whitesmoke;
+}
+
+ 
+   
+  

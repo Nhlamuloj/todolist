@@ -25,7 +25,7 @@ const Register = () => {
             <input type="name" placeholder='Enter your name' onChange={(e)=>setName(e.target.value)}/>
             <label>Email</label>
             <input type="email" placeholder='Enter your email' onChange={(e)=>setEmail(e.target.value)}/>
-            <label>password</label>
+            <label>Password</label>
             <input type="password" placeholder='Enter your password' onChange={(e)=> setPassword(e.target.value)}/>
             <button onClick={Register}>SignUp</button>
         </div>
