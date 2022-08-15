@@ -1,8 +1,8 @@
 
 import React,{useState} from "react";
-import { db } from "./config/firebase";
+import { db } from "../config/firebase";
 import { addDoc, collection } from "firebase/firestore";
-import "../components/Css/addtask.css"
+import "../Css/addtask.css"
 
 
 const AddTask = (props) => {

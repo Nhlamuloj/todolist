@@ -2,14 +2,17 @@ import React, {useState} from 'react';
 import{useHistory} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 import { signInWithEmailAndPassword} from 'firebase/auth';
-import { auth } from "./config/firebase";
-import "../components/Css/login.css"
-
+import { auth } from "../config/firebase";
+import "../Css/login.css"
+import GoogleButton from 'react-google-button';
+import { useUserAuth } from '../context/userAuthContext';
 
 
 const Login = () => {
     const[email,setEmail] = useState('')
     const[password, setPassword] =useState("");
+    // const {googleSignIn}=useUserAuth();
+    // const [error,setError]=useState("");
 
     const btn ={
         width:'150px',
@@ -27,6 +30,9 @@ const Login = () => {
         })
        
     })
+
+   
+    // }
   return (
     <div className='Main'>
         
@@ -45,13 +51,13 @@ const Login = () => {
 
             <span>Don't have an account </span> <span>
                 
-                <Link to="sign-up"> Create account here</Link>
+                <Link to="/Register"> Create account here</Link>
                
             </span>
                 
                 <h4>OR</h4>
 
-                <button className='google'>Sign-in with Google</button>
+               <GoogleButton />
         
        </div>
     </div>

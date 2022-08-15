@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import AddTask from './AddTask';
-import Displaytask from './Displaytask';
-import "./Css/home.css"
+import Displaytask from '../components/Displaytask'
+import "../Css/home.css"
 
 const Home = (props) => {
    

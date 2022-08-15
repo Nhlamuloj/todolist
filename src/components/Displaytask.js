@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Css/displaytask.css"
+import "../Css/displaytask.css"
 
 const Displaytask = (props) => {
     return(
@@ -22,7 +22,7 @@ const Displaytask = (props) => {
                             <button className='com'>Complete</button>
                         </div>
                     
-                ):(
+                ):item.transactionType ==="Medium" ?(
                             <div className="Priority-itemM">
                                 <div>
                                     <h4>
@@ -31,6 +31,10 @@ const Displaytask = (props) => {
                                 </div>
                                 <button className='com'>Complete</button>
                             </div>
+                    ):(
+                        <div>
+
+                        </div>
                     )}  
             </div>
             ))}
