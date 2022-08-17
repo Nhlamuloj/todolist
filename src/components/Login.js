@@ -32,7 +32,7 @@ const Login = () => {
     })
 
    
-    // }
+    
   return (
     <div className='Main'>
         
