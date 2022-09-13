@@ -11,15 +11,16 @@ function App() {
   const [transaction, setTransaction] = useState ([]);
   
 
-  const addTransaction = (( item, transactionType)=>{
+  const addTransaction = (( task, transactionType)=>{
 
-    setTransaction ((items)=>[...items,{
+    setTransaction ((tasks)=>[...tasks,{
       
-      item:item,
+      task:task,
       transactionType:transactionType,
     }])
   })
-  console.log(transaction);
+
+
 
   return (
 

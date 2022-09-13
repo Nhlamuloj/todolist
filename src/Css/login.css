@@ -1,15 +1,25 @@
 
 
+.Main{
+display: grid;
+grid-template-columns: 50%  50%;
+width: 100vw;
+height: 100vh;
+}
+
+ 
+.Image{
+  background: url('../image/back.jpg');
+  background: cover ;
+}
+
 .Login{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  padding: 50px;
 }
-
- 
-
 
 
 
@@ -27,18 +37,6 @@
     margin: 4px 2px;
     cursor: pointer;
     
-  }
-
-  .google{
-    background-color:whitesmoke;
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 4px 2px;
-    cursor: pointer;
   }
 
  

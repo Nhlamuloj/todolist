@@ -3,6 +3,7 @@ import{useHistory} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 import { signInWithEmailAndPassword} from 'firebase/auth';
 import { auth } from "../config/firebase";
+import  { Register } from "./Register"
 import "../Css/login.css"
 import GoogleButton from 'react-google-button';
 import { useUserAuth } from '../context/userAuthContext';

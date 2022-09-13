@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:whitesmoke;
     font-family: "lato";
   }
   
@@ -19,20 +19,27 @@ body{
 border-bottom: 5px solid red;
 display: flex;
 justify-content: space-between ;
+border-radius: 5px;
+box-shadow: 2px 2px 5px .5px gray;
 }
 .Priority-itemM{
     border-bottom: 5px solid yellow;
     display: flex;
-    justify-content: space-between 
+    justify-content: space-between ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px .5px gray;
+   
 }
 .Priority-itemL{
     border-bottom: 5px solid green;
     display: flex;
-    justify-content: space-between 
-}
-h4{
-padding-left: 1px ;
-padding-top: 10px;
+    justify-content: space-between ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px .5px gray;
+   
+ 
 }
 
-
+.items{
+    padding: 5px;
+}
